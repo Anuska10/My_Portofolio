@@ -24,22 +24,6 @@ class ContactMobileTab extends StatelessWidget {
           child: CustomSectionSubHeading(text: contactSubHeadding),
         ),
         Space.y(5.w)!,
-        // InkWell(
-        //   onTap: () => openURL(whatsapp),
-        //   child: Container(
-        //     padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 20),
-        //     decoration: BoxDecoration(
-        //         gradient: buttonGradi, borderRadius: BorderRadius.circular(10)),
-        //     child: const Text(
-        //       'Get Started',
-        //       style: TextStyle(
-        //         fontSize: 18,
-        //         fontWeight: FontWeight.w500,
-        //         color: blackColor,
-        //       ),
-        //     ),
-        //   ),
-        // ),
         Space.y(10.w)!,
         Wrap(
             alignment: WrapAlignment.center,

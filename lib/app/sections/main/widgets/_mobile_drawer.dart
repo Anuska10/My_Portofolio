@@ -16,7 +16,6 @@ class _MobileDrawer extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.only(top: 2.h),
               child: Column(
-                // crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Center(child: NavBarLogo()),
                   const Divider(),
@@ -25,7 +24,6 @@ class _MobileDrawer extends StatelessWidget {
                       state.isDarkThemeOn
                           ? Icons.dark_mode_outlined
                           : Icons.light_mode,
-                      // color: theme.textColor,
                     ),
                     title:
                         Text(state.isDarkThemeOn ? "Light Mode" : "Dark Mode"),

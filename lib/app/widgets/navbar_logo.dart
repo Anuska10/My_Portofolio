@@ -9,7 +9,7 @@ class NavBarLogo extends StatelessWidget {
   Widget build(BuildContext context) {
     // theme
     var theme = Theme.of(context);
-    //
+
     var textSty = TextStyle(
       color: theme.textColor,
       fontWeight: FontWeight.w100,
